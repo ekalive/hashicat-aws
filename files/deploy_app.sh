@@ -13,7 +13,7 @@ cat << EOM > /var/www/html/index.html
   <center><h2>Meow World!</h2></center>
   Welcome to ${PREFIX}'s app. Replace this text with your own.
   <!-- END -->
-    ACME of devcodeops is here. RJB.
+    ACME of devcode is here.
   </div>
   </body>
 </html>
