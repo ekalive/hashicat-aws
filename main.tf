@@ -114,14 +114,9 @@ resource aws_instance "hashicat" {
 
   tags = {
     Name = "${var.prefix}-hashicat-instance"
+    Billable = "true"
+    Department = "devops"
   }
-  tags = {
-    Name = "Billable"
-    Value = "true"
-  }
-  tags = {
-   Name = "Department"
-   Value = "devops"
 }
 
 # We're using a little trick here so we can run the provisioner without
